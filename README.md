@@ -163,8 +163,3 @@ Initial DistilBERT loading requires internet access to download pretrained model
 - Add surrounding interface context.
 - Explore probability calibration.
 - Train and evaluate a separate multiclass category model when sufficient reliable category labels are available.
-
-## Author
-
-**Betsy Varghese**  
-[GitHub](https://github.com/Bets1998)
