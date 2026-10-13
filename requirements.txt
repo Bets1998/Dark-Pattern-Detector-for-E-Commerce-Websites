@@ -1,0 +1,16 @@
+# Deployment/runtime dependencies only — pinned to the versions this project was verified
+# against. Re-pin deliberately (don't just delete the pins) if you need a newer version.
+numpy==1.26.4
+scikit-learn==1.5.2
+pandas==2.2.3
+Pillow==10.4.0
+pytesseract==0.3.13
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.1
+transformers==4.44.2
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+streamlit==1.38.0

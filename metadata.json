@@ -1,0 +1,14 @@
+{
+  "recommended_model": "bert",
+  "label_names": [
+    "Not Dark Pattern",
+    "Potential Dark Pattern"
+  ],
+  "max_token_len": 64,
+  "thresholds": {
+    "classical": 0.4425046777476985,
+    "bert": 0.525092601776123
+  },
+  "task": "binary_text_risk_screening",
+  "limitation": "Text-only screening cannot verify whether a claim is factually false or intentionally manipulative."
+}
